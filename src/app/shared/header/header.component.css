@@ -1,15 +1,30 @@
-  /*
-   * header CSS
-   */
-  
-  .site-header {
-    background-color: rgba(0, 0, 0, 0.897);
-  }
-  .site-header a {
-    color: #fff;
-    transition: ease-in-out color .15s;
-  }
-  .site-header a:hover {
-    color: rgba(255, 255, 255, 0.705);
-    text-decoration: none;
-  }
+/*
+* header CSS
+*/
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-left: 30px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:link,
+.navbar .navbar-nav .nav-item .nav-link:visited {
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:active {
+  color: rgba(204, 200, 200, 0.705);
+  margin-right: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.705);
+  transition: ease-in-out color 0.15s;
+}
+
+.iconColor {
+  color: salmon;
+}
