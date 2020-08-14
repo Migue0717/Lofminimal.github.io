@@ -1,0 +1,7 @@
+.footerPage{
+    align-self: flex-end;
+    background-color: tomato;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+}

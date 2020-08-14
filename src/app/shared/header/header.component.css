@@ -1,0 +1,15 @@
+  /*
+   * header CSS
+   */
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, 0.897);
+  }
+  .site-header a {
+    color: #fff;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+  }
