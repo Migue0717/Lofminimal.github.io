@@ -1,13 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+/*global styles and import other style files */
 
-.customingPadding{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    border: none !important;
+/* Fonts Imports */
+@font-face {
+  font-family: HelveticaNeuel;
+  src: url(assets/fonts/HelveticaNeueLTStd-Th.otf) format("opentype");
+}
+
+@font-face {
+  font-family: BaskervilleTittles;
+  src: url(assets/fonts/BaskervilleMTStd-Italic.otf) format("opentype");
+}
+/* End Fonts Imports */
+
+/* 
+  * Global Style 
+*/
+.customingPadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  border: none !important;
 }
 
 .row {
-    width: 100% !important;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    }
+  width: 100% !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/* Style for Scroll */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(248, 248, 248, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(34, 38, 47);
+} 

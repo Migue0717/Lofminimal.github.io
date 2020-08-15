@@ -3,14 +3,28 @@
   height: 100%;
   background-color: rgb(34, 38, 47);
   border: none;
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  letter-spacing: 1px; 
 }
 
 .text_space p {
+    text-align:left;
+    border:0px dotted #000; 
+    padding:8px;
     color: white; 
+    font-family: 'HelveticaNeuel','arial', sans-serif;
+    line-height: 20pt; 
+    font-size: 14px;
+    margin: 0px 40px 40px 40px;
 }
 
+.text_space h3 {
+  color: white;
+  font-family: 'BaskervilleTittles', 'arial', sans-serif;
+  margin-left: 40px;
+  margin-bottom: -1.5pc;
+  line-height: 2.2 !important;
+}
 
 .image_space img{
   width: 100%;

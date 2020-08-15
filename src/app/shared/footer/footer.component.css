@@ -1,7 +1,13 @@
+/* Footer CSS */
 .footerPage{
     align-self: flex-end;
     background-color:rgb(25, 28, 35);
     line-height: 3;
     text-align: center;
     width: 100%;
+    border: none;
+}
+
+.footerPage img {
+    padding-left: 20px;
 }

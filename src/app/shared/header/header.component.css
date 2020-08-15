@@ -4,10 +4,14 @@
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.726);
+  font-family: 'HelveticaNeuel', 'arial', sans-serif;
+  letter-spacing: 4pt;
 }
 
 .navbar-brand img {
-  height: 40px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  height: 30px;
   margin-left: 30px;
 }
 
@@ -15,6 +19,9 @@
 .navbar .navbar-nav .nav-item .nav-link:visited {
   color: rgb(255, 255, 255);
   margin-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 10px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover,
@@ -25,6 +32,6 @@
   transition: ease-in-out color 0.15s;
 }
 
-.iconColor {
-  color: salmon;
+.navbar .navbar-nav img {
+  height: 14px;
 }
