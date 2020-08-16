@@ -15,6 +15,10 @@
 /* 
   * Global Style 
 */
+body{
+  background-color: rgb(34, 38, 47);
+}
+
 .customingPadding {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -37,5 +41,5 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(34, 38, 47);
+  background-color: rgb(23, 27, 37);
 } 
